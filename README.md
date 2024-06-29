@@ -1,0 +1,2 @@
+# localstack
+Deploy localstack
