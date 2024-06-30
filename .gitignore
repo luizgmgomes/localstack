@@ -1,0 +1,58 @@
+# LocalStack
+.localstack/
+.volume/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.terraform.lock.hcl
+
+# Terragrunt
+.terragrunt-cache/
+
+# Docker
+.docker/
+docker-compose.override.yml
+docker-compose.yml
+docker-compose.yml.override
+
+# Other Docker related files
+Dockerfile
+
+# Ignore .env files containing credentials, keys, etc.
+.env
+
+# Ignore logs and temporary files
+*.log
+*.out
+*.pid
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor-specific files
+*.vscode/
+.idea/
+
+# Ignore local configuration files that may vary between developers
+*.local
+*.cfg
+*.ini
+
+# Ignore compiled binaries and libraries
+*.dll
+*.so
+*.dylib
+
+# Ignore node_modules directory for Node.js projects
+node_modules/
+
+# Ignore package-lock.json for Node.js projects
+package-lock.json
+
+# Ignore yarn.lock for Node.js projects
+yarn.lock
