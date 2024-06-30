@@ -12,10 +12,12 @@
 1. Clone the repository:
 
    ```
-   git clone https://github.com/luizgmgomes/localstack
-   cd localstack/modules
-   tflocal init
-   tflocal apply
+   $ git clone https://github.com/luizgmgomes/localstack
+   $ cd localstack
+   $ docker-compose up
+   $ cd modules
+   $ tflocal init
+   $ tflocal apply
    ```
 
 
