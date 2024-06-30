@@ -16,9 +16,7 @@ terraform.tfstate.backup
 
 # Docker
 .docker/
-docker-compose.override.yml
-docker-compose.yml
-docker-compose.yml.override
+
 
 # Other Docker related files
 Dockerfile
